@@ -19,9 +19,9 @@ const Todos = () => {
                     console.log(item)
                     return(
                         <article key={item.id}>
-                            {/* <h1>{item.productName}</h1>
-                            <h1>{item.productBrand}</h1> */}
-                            <h1>{item.title}</h1>
+                            <h1>{item.productName}</h1>
+                            <h1>{item.productBrand}</h1>
+                            {/* <h1>{item.title}</h1> */}
                         </article>
                     )
                 }
